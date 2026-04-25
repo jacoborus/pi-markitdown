@@ -1,0 +1,39 @@
+{
+  "name": "pimarkitdown",
+  "version": "1.0.0",
+  "description": "A pi extension to convert files and URLs to Markdown using MarkItDown",
+  "main": "markitdown-extension.ts",
+  "keywords": [
+    "pi-package"
+  ],
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "pi": {
+    "extensions": [
+      "extensions/*.ts"
+    ],
+    "skills": [
+      "skills/*.md"
+    ]
+  },
+  "dependencies": {
+    "markitdown": "latest"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-agent-core": "*",
+    "@mariozechner/pi-ai": "*",
+    "@mariozechner/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "devDependencies": {
+    "@mariozechner/pi-agent-core": "^0.70.2",
+    "@mariozechner/pi-ai": "^0.70.2",
+    "@mariozechner/pi-coding-agent": "^0.70.2",
+    "@types/node": "^25.6.0",
+    "typebox": "^1.1.33",
+    "typescript": "^6.0.3"
+  }
+}
