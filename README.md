@@ -4,9 +4,18 @@ A [pi](https://github.com/mariozechner/pi-coding-agent) extension that uses Micr
 
 ## Features
 
-- **URL Conversion**: Converts web pages to clean Markdown.
-- **File Conversion**: Supports PDF, Docx, Xlsx, Pptx, and more.
-- **Seamless Integration**: Integrated as a pi tool and guided by a built-in skill.
+- **Advanced Web-to-Markdown**: Converts web pages to clean, readable Markdown.
+- **Office Document Support**: Converts PDF, Docx, Xlsx, Pptx, and more.
+- **Smart Skill Integration**: Includes a Pi Skill that teaches the agent to automatically prefer `markitdown` for structured file conversion.
+- **Preserves Structure**: High-fidelity conversion that maintains tables, headings, and formatting from complex documents.
+
+## How it Works
+
+### The Tool
+The extension registers a `markitdown` tool that takes a `source` (URL or local path) and runs the Microsoft MarkItDown CLI via a shell command. It streams updates back to the Pi interface as the conversion progresses.
+
+### The Skill
+By bundling a Pi Skill, this package provides context to the LLM. The agent doesn't just "have" the tool; it "knows" that this tool is the best choice for handling specific file types or URLs, making the integration feel native and proactive.
 
 ## Prerequisites
 
