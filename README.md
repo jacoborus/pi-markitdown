@@ -1,4 +1,4 @@
-# pimarkitdown
+# pi-markitdown
 
 A [pi](https://github.com/mariozechner/pi-coding-agent) extension that uses Microsoft's [MarkItDown](https://github.com/microsoft/markitdown) to convert files and URLs to Markdown.
 
@@ -21,13 +21,13 @@ pip install markitdown
 You can install this package directly into pi:
 
 ```bash
-pi install git:github.com/youruser/pimarkitdown
+pi install git:github.com/jacoborus/pi-markitdown
 ```
 
 Or from npm (if published):
 
 ```bash
-pi install npm:pimarkitdown
+pi install npm:pi-markitdown
 ```
 
 ## Usage

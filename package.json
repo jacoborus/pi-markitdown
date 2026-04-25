@@ -1,5 +1,5 @@
 {
-  "name": "pimarkitdown",
+  "name": "pi-markitdown",
   "version": "1.0.0",
   "description": "A pi extension to convert files and URLs to Markdown using MarkItDown",
   "main": "markitdown-extension.ts",
