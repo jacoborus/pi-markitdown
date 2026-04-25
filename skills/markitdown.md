@@ -1,3 +1,8 @@
+---
+name: markitdown
+description: Converts URLs or local files (PDF, Word, Excel, etc.) to Markdown using the MarkItDown tool.
+---
+
 # MarkItDown Conversion
 
 Whenever you need to convert a URL or a local file to Markdown, use the `markitdown` tool.
