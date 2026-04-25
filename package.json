@@ -6,7 +6,7 @@
   "keywords": [
     "pi-package"
   ],
-  "author": "",
+  "author": "Jacobo Tabernero Rey (https://github.com/jacoborus)",
   "license": "MIT",
   "scripts": {
     "typecheck": "tsc --noEmit"
